@@ -41,4 +41,4 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: binaries
-      - run: chmod +x cpp_for_qa_project && ./cpp_for_qa_home_work 100.5 100.2 102.0 98.8 97.7 100.3 101.1 102.4 103.5 104.0
+      - run: chmod +x cpp_for_qa_project && ./cpp_for_qa_project 100.5 100.2 102.0 98.8 97.7 100.3 101.1 102.4 103.5 104.0
